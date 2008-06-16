@@ -1,0 +1,26 @@
+Beat Swatch Clock For J2ME - README
+===================================
+
+I will be happy to receive the most feedbacks, bug reports, 
+suggestions, contributions, and whatever you think can help to enhance it ...
+
+You can reach me at : Marco Ratto <marcoratto@gmail.com>
+
+You can get the last version (sources or binaries distribution)
+at: http://code.google.com/p/beatswatchclock4j2me/
+
+Marco Ratto,
+
+License
+=======
+This software is freely distributable under the GNU public license, a
+copy of which you should have received with this software (in a file
+called COPYING). 
+
+Description
+===========
+
+Simple implementation of the "Beat Swatch Clock" for a J2ME compliant mobile phone.
+
+For more details see Wikipedia: http://en.wikipedia.org/wiki/Swatch_Internet_Time
+
