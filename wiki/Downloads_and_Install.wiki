@@ -1,4 +1,5 @@
 #summary Downloads and Install
+#labels Phase-Deploy
 
 =Downloads and Install=
 The installation is very simple and similar to install a Java game.
