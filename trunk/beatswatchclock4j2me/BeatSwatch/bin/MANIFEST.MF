@@ -1,0 +1,8 @@
+MIDlet-1: Beat Swatch Clock, /logo.png, uk.co.marcoratto.j2me.beat.Swat
+ chBeatClockMIDlet
+MIDlet-Description: Beat Swatch Clock
+MIDlet-Name: Beat Swatch Clock
+MIDlet-Vendor: Marco Ratto
+MIDlet-Version: 1.0.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
