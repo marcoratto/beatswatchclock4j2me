@@ -1,4 +1,5 @@
 =Verify release=
+_How to verify the validity of a release_
 
 It is essential that you verify the integrity of the downloaded files using the PGP signature or the SHA1 or MD5 checksums. The checksums are not as strong indicators as the PGP signature.
 The PGP signatures can be verified using PGP or GPG. First download the [http://code.google.com/p/beatswatchclock4j2me/source/browse/trunk/beatswatchclock4j2me/BeatSwatch/KEYS KEYS] as well as the asc signature file for the particular distribution. Verify the signatures using:
