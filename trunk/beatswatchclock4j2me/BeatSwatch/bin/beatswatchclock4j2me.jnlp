@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://www.microemu.org/microemu-webstart"
+  href="open/wintermute.de/wap/extended/5ud0ku.jnlp">
+  <information>
+    <title>MicroEmulator</title>
+    <vendor>Bartek Teodorczyk & Vlad Skarzhevskyy</vendor>
+    <homepage href="http://www.microemu.org/"/>
+    <description>MicroEmulator</description>
+    <description kind="short">MicroEmulator</description>
+    <icon href="icon.png"/>
+    <offline-allowed/>
+  </information>
+
+  <security>
+      <all-permissions/>
+  </security>
+
+  <resources>
+    <j2se version="1.4+"/>
+    
+<jar href="microemu-demo-2.0.2.jar"/>
+<jar href="microemu-jsr-75-2.0.2.jar"/>
+<jar href="microemu-device-minimum-2.0.2.jar"/>
+<jar href="microemu-injected-2.0.2-inject.jar"/>
+<jar href="microemu-nokiaui-2.0.2.jar"/>
+<jar href="microemu-siemensapi-2.0.2.jar"/>
+<jar href="microemu-device-large-2.0.2.jar"/>
+<jar href="microemulator-2.0.2.jar" main="true"/>
+
+  </resources>
+
+  <application-desc main-class="org.microemu.app.Main">
+        <argument>--impl</argument>
+        <argument>org.microemu.cldc.file.FileSystem</argument>
+        <argument>http://beatswatchclock4j2me.googlecode.com/svn/trunk/beatswatchclock4j2me/BeatSwatch/bin/BeatSwatch.jad</argument>
+  </application-desc>
+
+</jnlp>
