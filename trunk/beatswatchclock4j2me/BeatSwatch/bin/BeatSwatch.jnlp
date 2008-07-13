@@ -2,7 +2,7 @@
 <jnlp
   spec="1.0+"
   codebase="http://www.microemu.org/microemu-webstart"
-  href="http://code.google.com/p/beatswatchclock4j2me/source/browse/trunk/beatswatchclock4j2me/BeatSwatch/bin/BeatSwatch.jnlp">
+  href="http://beatswatchclock4j2me.googlecode.com/svn/trunk/beatswatchclock4j2me/BeatSwatch/bin/BeatSwatch.jnlp">
   <information>
     <title>Beat Swatch Clock For J2ME</title>
     <vendor>Marco Ratto</vendor>
@@ -34,7 +34,7 @@
   <application-desc main-class="org.microemu.app.Main">
         <argument>--impl</argument>
         <argument>org.microemu.cldc.file.FileSystem</argument>
-        <argument>http://code.google.com/p/beatswatchclock4j2me/source/browse/trunk/beatswatchclock4j2me/BeatSwatch/bin/BeatSwatch.jad</argument>
+        <argument>http://beatswatchclock4j2me.googlecode.com/svn/trunk/beatswatchclock4j2me/BeatSwatch/bin/BeatSwatch.jad</argument>
   </application-desc>
 
 </jnlp>
